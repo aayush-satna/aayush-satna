@@ -48,3 +48,6 @@ I build reliable Python backends, automated ETL/scraping pipelines, real-time al
 * **Internal Business Tools & Dashboards:** Fast, low-cost operational portals and automated reporting workflows.
 
 *Open to fixed-price automation builds, custom data pipelines, and ongoing backend contracts.*
+
+### Reference Implementations & Starter Architectures
+* **[FastAPI + PostgreSQL ETL Ingestion Service](https://github.com/aayush-satna/fastapi-postgres-etl-starter)** — Modular batch telemetry ingestion API with Pydantic v2 validation, pooled SQLAlchemy sessions, composite time-series indexing, and Docker Compose orchestration.
