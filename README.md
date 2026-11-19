@@ -49,5 +49,7 @@ I build reliable Python backends, automated ETL/scraping pipelines, real-time al
 
 ### Reference Implementations & Starter Architectures
 * **[FastAPI + PostgreSQL ETL Ingestion Service](https://github.com/aayush-satna/fastapi-postgres-etl-starter)** — Modular batch telemetry ingestion API with Pydantic v2 validation, pooled SQLAlchemy sessions, composite time-series indexing, and Docker Compose orchestration.
+* **[Idempotent Webhook Event Processor](https://github.com/aayush-satna/webhook-event-processor)** — FastAPI + Redis webhook gateway featuring constant-time HMAC-SHA256 signature verification, atomic `SET NX` deduplication, and TTL state retention.
+* **[Kafka + TimescaleDB Stream Telemetry Pipeline](https://github.com/aayush-satna/stream-telemetry-pipeline)** — Fault-tolerant Apache Kafka (KRaft) consumer with batch SQLAlchemy persistence into TimescaleDB/PostgreSQL, Dead-Letter Queue (DLQ) error isolation, and manual offset commits.
 
 *Open to fixed-price automation builds, custom data pipelines, and ongoing backend contracts.*
